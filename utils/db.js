@@ -3,8 +3,6 @@ import sqlite3 from 'better-sqlite3'
 import { BlockHeader } from 'bsv'
 const { reorgThreshold } = config 
 
-console.log(config);
-
 const db = new sqlite3(config.db.path, {}, (e) => {
     if (e) {
       console.error(e.message)
