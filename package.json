@@ -1,0 +1,38 @@
+{
+  "name": "spv-client",
+  "version": "1.0.0",
+  "description": "A simple SPV client for syncing Bitcoin block headers and validating SPV proofs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm server.js",
+    "dev": "nodemon -r esm index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matterpool/spv-client.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "bsv",
+    "spv"
+  ],
+  "author": "Matterpool Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matterpool/spv-client/issues"
+  },
+  "homepage": "https://github.com/matterpool/spv-client#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "better-sqlite3": "^7.1.1",
+    "body-parser": "^1.19.0",
+    "bsv": "^2.0.0-beta.41",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "spv": "github:matterpool/spv"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
