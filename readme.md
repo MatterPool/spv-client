@@ -25,7 +25,7 @@ $ npm run start
 ### Configuration
 While the SPV Client defaults to MatterCloud's header beacon, it is possible to set the peer to any other SPV Client in the config file, like so:
 ```js
-//config.js
+//config/index.js
 peer: "https://spv.mywebsite.com/api/v1/header"
 ```
 
