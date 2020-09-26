@@ -16,7 +16,7 @@ For some more specific applications of SPV Light Clients, it may be possible to 
 To install the SPV Client, simply clone this repo, install it and run it like so:
 
 ```sh
-$ git clone matterpool/spv-client
+$ git clone https://github.com/MatterPool/spv-client.git
 $ cd spv-client
 $ npm install
 $ npm run start
